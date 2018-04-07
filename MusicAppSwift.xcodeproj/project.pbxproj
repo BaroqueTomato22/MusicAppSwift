@@ -17,6 +17,7 @@
 		1742B7D22076C3D600E2D886 /* G string.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1742B7CE2076C3D600E2D886 /* G string.wav */; };
 		1742B7D32076C3D600E2D886 /* A string.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1742B7CF2076C3D600E2D886 /* A string.wav */; };
 		1742B7DC2076D0C800E2D886 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1742B7DB2076D0C800E2D886 /* SecondViewController.swift */; };
+		1779CF9620794477003A5A14 /* MusicAppSwift in Resources */ = {isa = PBXBuildFile; fileRef = 1779CF9520794477003A5A14 /* MusicAppSwift */; };
 		17B81FAD207711D200CE76C5 /* Click 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17B81FAC207711D200CE76C5 /* Click 2.wav */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		1742B7CE2076C3D600E2D886 /* G string.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "G string.wav"; sourceTree = "<group>"; };
 		1742B7CF2076C3D600E2D886 /* A string.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "A string.wav"; sourceTree = "<group>"; };
 		1742B7DB2076D0C800E2D886 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
+		1779CF9520794477003A5A14 /* MusicAppSwift */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MusicAppSwift; sourceTree = "<group>"; };
 		17B81FAC207711D200CE76C5 /* Click 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Click 2.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 		1742B7B72076C0E700E2D886 /* MusicAppSwift */ = {
 			isa = PBXGroup;
 			children = (
+				1779CF9520794477003A5A14 /* MusicAppSwift */,
 				1742B7B82076C0E700E2D886 /* AppDelegate.swift */,
 				1742B7BA2076C0E700E2D886 /* ViewController.swift */,
 				1742B7DB2076D0C800E2D886 /* SecondViewController.swift */,
@@ -155,6 +158,7 @@
 				1742B7D32076C3D600E2D886 /* A string.wav in Resources */,
 				1742B7C02076C0E700E2D886 /* Assets.xcassets in Resources */,
 				1742B7BE2076C0E700E2D886 /* Main.storyboard in Resources */,
+				1779CF9620794477003A5A14 /* MusicAppSwift in Resources */,
 				1742B7D02076C3D600E2D886 /* D string.wav in Resources */,
 				17B81FAD207711D200CE76C5 /* Click 2.wav in Resources */,
 			);
