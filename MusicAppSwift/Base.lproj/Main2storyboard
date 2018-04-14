@@ -15,10 +15,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Tone Generator View Controller-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ToneGeneratorViewController" customModule="MusicAppSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MusicAppSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,10 +72,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rss-FI-g3t">
-                                <rect key="frame" x="37" y="587" width="302" height="71"/>
+                                <rect key="frame" x="68" y="587" width="239" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
-                                <state key="normal" title="Metronome →"/>
+                                <state key="normal" title="Metronome"/>
                                 <connections>
                                     <segue destination="dSY-8N-g26" kind="show" id="I9j-PU-j4u"/>
                                 </connections>
@@ -89,10 +89,10 @@
             </objects>
             <point key="canvasLocation" x="-270" y="97"/>
         </scene>
-        <!--Metronome View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="LQB-K8-DeS">
             <objects>
-                <viewController id="dSY-8N-g26" customClass="MetronomeViewController" customModule="MusicAppSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dSY-8N-g26" customClass="SecondViewController" customModule="MusicAppSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vvr-3K-tHw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -130,6 +130,12 @@
                                     <action selector="Stop:" destination="dSY-8N-g26" eventType="touchUpInside" id="EEr-dV-g0Y"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="skx-TC-Efs">
+                                <rect key="frame" x="29" y="583" width="328" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <state key="normal" title="Tone Generator"/>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0yn-sQ-0cO">
                                 <rect key="frame" x="91" y="236" width="192" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -138,15 +144,6 @@
                                 <state key="normal" title="Start"/>
                                 <connections>
                                     <action selector="Start:" destination="dSY-8N-g26" eventType="touchUpInside" id="eZO-hA-PwN"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="skx-TC-Efs">
-                                <rect key="frame" x="-5" y="589" width="384" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="40"/>
-                                <state key="normal" title="← Tone Generator"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="q9o-yy-RBQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -159,7 +156,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lOA-pa-O9h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="601" y="97"/>
+            <point key="canvasLocation" x="408.80000000000001" y="96.7016491754123"/>
         </scene>
     </scenes>
 </document>

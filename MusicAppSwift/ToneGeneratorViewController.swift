@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class ViewController: UIViewController {
+class ToneGeneratorViewController: UIViewController {
 
     var audioPlayer : AVAudioPlayer!
     var selectedSoundFileName : String = ""
@@ -19,7 +19,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
       
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
@@ -27,9 +26,9 @@ class ViewController: UIViewController {
 
     @IBAction func ViolinStrings(_ sender: UIButton) {
         selectedSoundFileName = soundArray[sender.tag - 1]
-        
         playSound()
     }
+    
     
     func playSound() {
         let soundURL = Bundle.main.url(forResource: selectedSoundFileName, withExtension: "wav")
